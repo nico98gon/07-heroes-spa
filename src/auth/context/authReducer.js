@@ -12,7 +12,7 @@ import { types } from "../types/types";
 
             case types.logout:
                 return {
-                    logged: true,
+                    logged: false,
                 };
             
             default:
